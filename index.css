@@ -61,10 +61,13 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+   
 }
 
 ul li {
+    
     font-size: 20px;
+   position: relative;
     background-color: #FFFDF8;
     padding: 15px;
     border-radius: 8px;
@@ -77,3 +80,22 @@ ul li:hover {
     background-color: #00B9B3;
     cursor: pointer;
 }
+
+.change-btn{
+color: #4F5D75;
+margin: 1px 4px ;
+position: absolute;
+top: 0;
+right: 0; 
+}
+
+.close-btn{
+    color:#4F5D75;
+    
+    
+    margin: 3px 4px ;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    }
+    
